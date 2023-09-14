@@ -1,9 +1,12 @@
 import Image from "next/image";
 
+
 export default function Home() {
   return (
     <>
       {/* preloader */}
+      <register/>
+
       <div className="preloader loaded-success fixed inset-0 bg-gray-100 dark:bg-gray-900">
         <div className="absolute left-1/2 top-1/2 transform -translate-y-1/2">
           <div className="relative mx-auto my-12">
@@ -485,7 +488,7 @@ export default function Home() {
               </div>
               <p className="text-center mb-4">
                 Already have an account?{" "}
-                <a className="hover:text-indigo-500" href="login-cover.html">
+                <a className="hover:text-indigo-500" href="login-area">
                   Login
                 </a>
               </p>
