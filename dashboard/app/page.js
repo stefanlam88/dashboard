@@ -159,7 +159,7 @@ export default function Home() {
                       >
                         {/* <i class="fas fa-sign-up ltr:mr-2 rtl:ml-2"></i> */}
                         <svg
-                          xmlns="http://www.w3.org/2000/svg"
+                          xmlns=""
                           fill="currentColor"
                           className="inline-block w-4 h-4 ltr:mr-2 rtl:ml-2 bi bi-box-arrow-in-right"
                           viewBox="0 0 16 16"
@@ -188,7 +188,7 @@ export default function Home() {
                       >
                         {/* <i class="fab fa-facebook"></i> */}
                         <svg
-                          xmlns="http://www.w3.org/2000/svg"
+                          xmlns=""
                           className="inline-block w-4 h-4 mx-1"
                           fill="currentColor"
                           viewBox="0 0 512 512"
@@ -205,7 +205,7 @@ export default function Home() {
                       >
                         {/* <i class="fab fa-twitter"></i> */}
                         <svg
-                          xmlns="http://www.w3.org/2000/svg"
+                          xmlns=""
                           className="inline-block w-4 h-4 mx-1"
                           fill="currentColor"
                           viewBox="0 0 512 512"
