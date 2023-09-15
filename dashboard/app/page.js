@@ -1,5 +1,7 @@
 import Image from "next/image";
-
+import Link from "next/link";
+import React from "react";
+import forgot from "./forgot";
 
 export default function Home() {
   return (
@@ -126,12 +128,13 @@ export default function Home() {
                           </label>
                         </div>
                         <div className="flex-shrink max-w-full w-1/2 ltr:text-right rtl:text-left">
-                          <a
-                            className="hover:text-blue-700"
-                            href="forgot-password.html"
-                          >
+                          <a href='/forgot'>
+
+                          
+                           
+                         
                             Forgot password?
-                          </a>
+                         </a>
                         </div>
                       </div>
                       <input

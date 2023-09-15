@@ -1,14 +1,7 @@
-
-function Forgot(){
+"use client"
+export default function forgot(){
     <>
-  {/*
-Template Name: Taildash - Tailwind Dashboard Admin Template
-Author: Aribudin
-Website: https://www.tailwinddashboard.com
-Contact: support@tailwinddashboard.com
-Purchase: https://themes.tailwindtemplate.net/taildash
-License: You must have a valid license purchased only from official store (the above link) in order to legally use the theme for your project.
-*/}
+
   {/* Required meta tags */}
   <meta charSet="UTF-8" />
   <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
