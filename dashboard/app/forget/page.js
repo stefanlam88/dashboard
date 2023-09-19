@@ -55,7 +55,7 @@ export default function ForgetForm() {
     <ul className="flex ltr:ml-auto rtl:mr-auto mt-2">
       <li className="relative">
         <a
-          href="login-basic.html"
+          href="/login"
           className="py-3 px-4 flex hover:text-indigo-500 focus:outline-none"
         >
           <div className="relative inline-block">Login</div>
@@ -63,7 +63,7 @@ export default function ForgetForm() {
       </li>
       <li className="relative">
         <a
-          href="register-basic.html"
+          href="/register"
           className="py-3 px-4 flex hover:text-indigo-500 focus:outline-none"
         >
           <div className="relative inline-block">Register</div>
@@ -76,7 +76,7 @@ export default function ForgetForm() {
 
          <div
           id="login-area"
-          className="relative py-12 bg-gray-100 dark:bg-gray-900 dark:bg-opacity-40"
+          className="relative py-12 max-h-ful bg-gray-900 dark:bg-gray-900 dark:bg-opacity-40"
         >
           <div className="container xl:max-w-6xl mx-auto px-4">
             <div className="flex flex-wrap flex-row -mx-4 justify-center">

@@ -100,7 +100,7 @@ export default function LoginForm() {
                             Password
                           </label>
                         </div>
-                        <div className="flex-shrink max-w-full w-1/2 ltr:text-right rtl:text-left">
+                        <div className="flex-shrink max-w-full w-1/2 ltr:text-right rtl:text-left hover:text-indigo-500">
                           <Link href= "/forget" >
 
                           
