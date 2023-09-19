@@ -1,7 +1,7 @@
 import React from "react";
 import ForgetForm from "./forget-form";
 import Link from "next/link";
-
+import RegisterForm from "./register-form";
 export default function LoginForm() {
     return (
         <>
