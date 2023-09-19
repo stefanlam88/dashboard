@@ -127,7 +127,7 @@ export default function LoginForm() {
                         id="remember"
                         required=""
                       />
-                      <label className="ltr:ml-2 rtl:mr-2" htmlFor="remember">
+                      <label className="ltr:ml-2 rtl:mr-2" htmlFor="remember" style={{ marginLeft: '10px' }}>
                         Remember me
                       </label>
                     </div>
