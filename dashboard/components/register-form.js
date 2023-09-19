@@ -1,6 +1,7 @@
+"use client"
+import React from 'react';
 
-
-export default function RegisterForm() {
+function RegisterForm() {
     return (
         <>
               <div
@@ -212,3 +213,5 @@ export default function RegisterForm() {
         </>
     )
 }
+
+export default RegisterForm;

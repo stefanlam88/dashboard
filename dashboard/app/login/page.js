@@ -1,7 +1,6 @@
-
-import React from 'react';
-import Link from "next/link";
-function LoginForm() {
+import Link from "next/link"
+import ForgetForm from "../forget/page"
+export default function LoginForm() {
     return (
         <>
       
@@ -16,7 +15,14 @@ function LoginForm() {
         }}
       >
         <div className="flex flex-wrap flex-row">
-          <span className="fixed bg-gray-900 bg-opacity-70 w-full h-full inset-x-0 top-0" />
+          <span className="fixed bg-gray-100 dark-bg-opacity-40 w-full h-full inset-x-0 top-0" 
+   style={{
+    backgroundImage: 'url("/bg1.jpg")', // Replace with your image path or URL
+    backgroundRepeat: "no-repeat",
+    backgroundSize: "cover",
+    backgroundAttachment: "fixed"
+  }}
+/>
           <div className="flex-shrink max-w-full w-full min-h-screen sm:w-2/3 lg:w-1/2 xl:w-1/3 z-30">
             {/* login form */}
             <div className="max-w-full w-full h-full px-6 sm:px-12 bg-white dark:bg-gray-800 shadow-lg z-40">
@@ -95,7 +101,7 @@ function LoginForm() {
                           </label>
                         </div>
                         <div className="flex-shrink max-w-full w-1/2 ltr:text-right rtl:text-left">
-                          <Link href= "/forget-form" >
+                          <Link href= "/forget" >
 
                           
                            
@@ -194,7 +200,7 @@ function LoginForm() {
                       Don't have an account?{" "}
                       <a
                         className="hover:text-indigo-500"
-                        href='./register-form'
+                        href='/register'
                       >
                         Register
                       </a>
@@ -209,4 +215,3 @@ function LoginForm() {
         </>
     )
 }
-export default LoginForm
