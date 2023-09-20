@@ -5,7 +5,7 @@ export default function LoginForm() {
         <>
       
       <div
-        className="bg-gray-100 dark:bg-gray-900 dark:bg-opacity-40"
+        className="bg-gray-100 dark:bg-gray-900 dark:bg-opacity-40 text-slate-100"
         style={{
           background:
           "\public\bg1.jpg",
@@ -25,7 +25,7 @@ export default function LoginForm() {
 />
           <div className="flex-shrink max-w-full w-full min-h-screen sm:w-2/3 lg:w-1/2 xl:w-1/3 z-30">
             {/* login form */}
-            <div className="max-w-full w-full h-full px-6 sm:px-12 bg-white dark:bg-gray-800 shadow-lg z-40">
+            <div className="max-w-full w-full h-full px-6 sm:px-12 bg-white dark:bg-indigo-950 shadow-lg z-40">
               <div className="relative">
                 <div className="p-6 sm:p-8">
                   <form id="login-form">
@@ -83,7 +83,7 @@ export default function LoginForm() {
                       <input
                         name="email"
                         id="inputemail"
-                        className="w-full leading-5 relative py-2 px-4 rounded text-gray-800 bg-white border border-gray-300 overflow-x-auto focus:outline-none focus:border-gray-400 focus:ring-0dark:text-gray-300 dark:bg-gray-700 dark:border-gray-700 dark:focus:border-gray-600"
+                        className="w-full leading-5 relative py-2 px-4 rounded text-gray-800 bg-white border border-gray-300 overflow-x-auto focus:outline-none focus:border-gray-400 focus:ring-0dark:text-gray-300 dark:bg-blue-900 dark:border-blue-900 dark:focus:border-gray-600"
                         defaultValue=""
                         aria-label="email"
                         type="email"
@@ -112,7 +112,7 @@ export default function LoginForm() {
                       </div>
                       <input
                         id="inputpass"
-                        className="w-full leading-5 relative py-2 px-4 rounded text-gray-800 bg-white border border-gray-300 overflow-x-auto focus:outline-none focus:border-gray-400 focus:ring-0dark:text-gray-300 dark:bg-gray-700 dark:border-gray-700 dark:focus:border-gray-600"
+                        className="w-full leading-5 relative py-2 px-4 rounded text-gray-800 bg-white border border-gray-300 overflow-x-auto focus:outline-none focus:border-gray-400 focus:ring-0dark:text-gray-300 dark:bg-blue-900 dark:border-blue-900 dark:focus:border-gray-600"
                         aria-label="password"
                         type="password"
                         defaultValue=""

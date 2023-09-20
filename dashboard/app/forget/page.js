@@ -5,7 +5,7 @@ export default function ForgetForm() {
         <header>
   {/* Navbar */}
   <nav
-    className="flex flex-row flex-nowrap items-center justify-between mt-0 py-4 px-6 border-b border-gray-200 bg-white dark:bg-gray-800 dark:border-gray-800"
+    className="flex  text-slate-100 flex-row flex-nowrap items-center justify-between mt-0 py-4 px-6 border-b border-gray-200 bg-white dark:bg-indigo-950 dark:border-gray-800"
     id="desktop-menu"
   >
     {/* logo */}
@@ -76,14 +76,14 @@ export default function ForgetForm() {
 
          <div
           id="login-area"
-          className="relative py-12 max-h-ful bg-gray-900 dark:bg-gray-900 dark:bg-opacity-40"
+          className="relative py-12 max-h-ful dark:bg-slate-950 "
         >
-          <div className="container xl:max-w-6xl mx-auto px-4">
+          <div className="container xl:max-w-6xl mx-auto px-4 ">
             <div className="flex flex-wrap flex-row -mx-4 justify-center">
               {/* login form */}
               <div className="max-w-full w-full md:w-2/3 lg:w-1/2 px-6 sm:px-12">
                 <div className="relative">
-                  <div className="p-6 sm:py-8 sm:px-12 rounded-lg bg-white dark:bg-gray-800 shadow-xl">
+                  <div className="p-6 sm:py-8 sm:px-12 rounded-lg bg-white dark:bg-indigo-950 shadow-xl">
                     <form id="login-form">
                       <h1 className="text-2xl leading-normal mb-6 font-bold text-gray-800  dark:text-gray-300 text-center">
                         Reset Password
