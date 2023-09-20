@@ -1,5 +1,5 @@
 
-import LoginForm from "@/components/login-form";
+import LoginForm from "./login/page";
 import React from "react";
 import Link from "next/link";
 

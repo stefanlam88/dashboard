@@ -3,7 +3,7 @@ export default function RegisterForm(){
     return (
         <>
               <div
-  className="bg-gray-100 dark:bg-gray-900 dark:bg-opacity-40"
+  className="bg-gray-100 dark:bg-gray-950 dark:bg-opacity-40"
   style={{
     backgroundImage: 'url("/bg1.jpg")', // Replace with your image path or URL
     backgroundRepeat: "no-repeat",
@@ -11,11 +11,11 @@ export default function RegisterForm(){
     backgroundAttachment: "fixed"
   }}
 >
-  <div className="flex flex-wrap flex-row">
+  <div className="flex flex-wrap flex-row text-slate-100">
     <span className="fixed bg-gray-900 bg-opacity-70 w-full h-full inset-x-0 top-0" />
     <div className="flex-shrink max-w-full w-full min-h-screen sm:w-2/3 lg:w-1/2 xl:w-1/3 z-30">
       {/* login form */}
-      <div className="max-w-full h-full w-full px-6 sm:px-12 bg-white dark:bg-gray-800 shadow-lg z-40">
+      <div className="max-w-full h-full w-full px-6 sm:px-12 bg-white dark:bg-violet-950 shadow-lg z-40">
         <div className="relative">
           <div className="p-6 sm:p-8">
             <form id="login-form">
@@ -73,7 +73,7 @@ export default function RegisterForm(){
                 <input
                   name="name"
                   id="inputname"
-                  className="w-full leading-5 relative py-2 px-4 rounded text-gray-800 bg-white border border-gray-300 overflow-x-auto focus:outline-none focus:border-gray-400 focus:ring-0 dark:text-gray-300 dark:bg-gray-700 dark:border-gray-700 dark:focus:border-gray-600"
+                  className="w-full leading-5 relative py-2 px-4 rounded text-gray-900 bg-white border border-gray-300 overflow-x-auto focus:outline-none focus:border-gray-400 focus:ring-0 dark:text-gray-300 dark:bg-blue-950 dark:border-blue-950 dark:focus:border-blue-950"
                   defaultValue=""
                   aria-label="text"
                   type="text"
