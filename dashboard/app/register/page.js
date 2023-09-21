@@ -11,7 +11,7 @@ export default function RegisterForm(){
     backgroundAttachment: "fixed"
   }}
 >
-  <div className="flex flex-wrap flex-row text-slate-100">
+  <div className="flex flex-wrap flex-row text-white ">
     <span className="fixed bg-gray-900 bg-opacity-70 w-full h-full inset-x-0 top-0" />
     <div className="flex-shrink max-w-full w-full min-h-screen sm:w-2/3 lg:w-1/2 xl:w-1/3 z-30">
       {/* login form */}

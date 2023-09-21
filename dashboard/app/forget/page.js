@@ -7,7 +7,7 @@ export default function ForgetForm() {
         <header>
   {/* Navbar */}
   <nav
-    className="flex  text-slate-100 flex-row flex-nowrap items-center justify-between mt-0 py-4 px-6 border-b border-gray-200 bg-white dark:bg-indigo-950 dark:border-gray-800"
+    className="flex  text-white flex-row flex-nowrap items-center justify-between mt-0 py-4 px-6 border-b border-gray-200 bg-white dark:bg-indigo-950 dark:border-gray-800"
     id="desktop-menu"
   >
     {/* logo */}

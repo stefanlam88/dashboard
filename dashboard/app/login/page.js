@@ -83,14 +83,14 @@ export default function LoginForm() {
                       <input
                         name="email"
                         id="inputemail"
-                        className="w-full leading-5 relative py-2 px-4 rounded text-gray-800 bg-white border border-gray-300 overflow-x-auto focus:outline-none focus:border-gray-400 focus:ring-0dark:text-gray-300 dark:bg-blue-900 dark:border-blue-900 dark:focus:border-gray-600"
+                        className="w-full leading-5 relative py-2 px-4 rounded text-white bg-white border border-gray-300 overflow-x-auto focus:outline-none focus:border-gray-400 focus:ring-0dark:text-gray-300 dark:bg-blue-900 dark:border-blue-900 dark:focus:border-gray-600"
                         defaultValue=""
                         aria-label="email"
                         type="email"
                         required
                       />
                     </div>
-                    <div className="mb-6 ">
+                    <div className="mb-6  ">
                       <div className="flex flex-wrap flex-row">
                         <div className="flex-shrink max-w-full w-1/2">
                           <label
@@ -104,7 +104,6 @@ export default function LoginForm() {
                           <Link href= "/forget" >
 
                           
-                           
                          
                             Forgot password?
                          </Link>
@@ -112,7 +111,7 @@ export default function LoginForm() {
                       </div>
                       <input
                         id="inputpass"
-                        className="w-full leading-5 relative py-2 px-4 rounded text-gray-400 bg-white border border-gray-300 overflow-x-auto focus:outline-none focus:border-gray-400 focus:ring-0dark:text-gray-300 dark:bg-blue-900 dark:border-blue-900 dark:focus:border-gray-600"
+                        className="w-full leading-5 relative py-2 px-4 rounded text-white bg-white border border-gray-300 overflow-x-auto focus:outline-none focus:border-gray-400 focus:ring-0 dark:text-gray-300 dark:bg-blue-900 dark:border-blue-900 dark:focus:border-gray-600"
                         aria-label="password"
                         type="password"
                         defaultValue=""
@@ -121,7 +120,7 @@ export default function LoginForm() {
                     </div>
                     <div className="mb-6">
                       <input
-                        className="form-checkbox h-5 w-5 text-indigo-500 dark:bg-gray-700 border border-gray-300 dark:border-gray-700 rounded focus:outline-none"
+                        className="form-checkbox h-5 w-5  dark:bg-gray-700 text-white bg-white border border-gray-300 dark:border-gray-700 rounded focus:outline-none"
                         type="checkbox"
                         defaultValue=""
                         id="remember"
