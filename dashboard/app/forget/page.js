@@ -98,7 +98,7 @@ export default function ForgetForm() {
                       <div className="mb-6">
                         <input
                           name="email"
-                          className="w-full leading-5 relative py-2 px-4 rounded text-gray-800 bg-white border border-gray-300 overflow-x-auto focus:outline-none focus:border-gray-400 focus:ring-0 dark:text-gray-300 dark:bg-gray-700 dark:border-gray-700 dark:focus:border-gray-600"
+                          className="w-full leading-5 relative py-2 px-4 rounded text-gray-800 bg-white border border-gray-300 overflow-x-auto focus:outline-none focus:border-gray-400 focus:ring-0 dark:text-gray-300 dark:bg-blue-900 dark:border-blue-900 dark:focus:border-gray-600"
                           placeholder="Email address"
                           defaultValue=""
                           aria-label="email"
