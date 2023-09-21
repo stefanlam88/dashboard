@@ -1,7 +1,9 @@
 
 export default function ForgetForm() {
     return (
+    
         <>
+        
         <header>
   {/* Navbar */}
   <nav
@@ -76,9 +78,9 @@ export default function ForgetForm() {
 
          <div
           id="login-area"
-          className="relative py-12 max-h-ful dark:bg-slate-950 "
+          className="relative py-12   "
         >
-          <div className="container xl:max-w-6xl mx-auto px-4 ">
+          <div className="container xl:max-w-6xl my-auto mx-auto px-4 ">
             <div className="flex flex-wrap flex-row -mx-4 justify-center">
               {/* login form */}
               <div className="max-w-full w-full md:w-2/3 lg:w-1/2 px-6 sm:px-12">
@@ -89,7 +91,7 @@ export default function ForgetForm() {
                         Reset Password
                       </h1>
                       <hr className="block w-12 h-0.5 mx-auto my-5 bg-gray-700 border-gray-700" />
-                      <p className="text-gray-500 mb-6">
+                      <p className="text-gray-300 mb-6">
                         Enter your email address and we'll send you an email
                         with instructions to reset your password.
                       </p>
@@ -101,7 +103,7 @@ export default function ForgetForm() {
                           defaultValue=""
                           aria-label="email"
                           type="email"
-                          required=""
+                          required
                         />
                       </div>
                       <div className="text-center">

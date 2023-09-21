@@ -77,7 +77,7 @@ export default function RegisterForm(){
                   defaultValue=""
                   aria-label="text"
                   type="text"
-                  required=""
+                  required
                 />
               </div>
               <div className="mb-4">
@@ -91,7 +91,7 @@ export default function RegisterForm(){
                   defaultValue=""
                   aria-label="email"
                   type="email"
-                  required=""
+                  required
                 />
               </div>
               <div className="mb-4">
@@ -104,7 +104,7 @@ export default function RegisterForm(){
                   aria-label="password"
                   type="password"
                   defaultValue=""
-                  required=""
+                  required
                 />
               </div>
               <div className="mb-4">
@@ -117,7 +117,7 @@ export default function RegisterForm(){
                   aria-label="password"
                   type="password"
                   defaultValue=""
-                  required=""
+                  required
                 />
               </div>
               <div className="my-6">
@@ -126,7 +126,7 @@ export default function RegisterForm(){
                   type="checkbox"
                   defaultValue=""
                   id="terms"
-                  required=""
+                  required
                 />
                 <label className="ltr:ml-2 rtl:mr-2" htmlFor="terms" style={{ marginLeft: '10px' }}>
                   I agree to the <a href="#">Terms and Conditions</a>

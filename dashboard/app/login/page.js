@@ -30,8 +30,8 @@ export default function LoginForm() {
                 <div className="p-6 sm:p-8">
                   <form id="login-form">
                     <div className="text-center">
-                      <a className="py-2 text-2xl" href="#">
-                        <h2 className="text-2xl font-semibold text-gray-200 px-4 max-h-9 overflow-hidden">
+                      <a className="py-2 text-2xl"  href="#">
+                        <h2 className="text-2xl font-semibold text-gray-200 px-4 w-full h-full overflow-hidden">
                           {/* <img class="inline-block w-8 h-auto ltr:mr-2 rtl:ml-2 -mt-1" src="../src/img/logo.png"> */}
                           <svg
                             xmlns="http://www.w3.org/2000/svg"
@@ -87,10 +87,10 @@ export default function LoginForm() {
                         defaultValue=""
                         aria-label="email"
                         type="email"
-                        required=""
+                        required
                       />
                     </div>
-                    <div className="mb-6">
+                    <div className="mb-6 ">
                       <div className="flex flex-wrap flex-row">
                         <div className="flex-shrink max-w-full w-1/2">
                           <label
@@ -112,11 +112,11 @@ export default function LoginForm() {
                       </div>
                       <input
                         id="inputpass"
-                        className="w-full leading-5 relative py-2 px-4 rounded text-gray-800 bg-white border border-gray-300 overflow-x-auto focus:outline-none focus:border-gray-400 focus:ring-0dark:text-gray-300 dark:bg-blue-900 dark:border-blue-900 dark:focus:border-gray-600"
+                        className="w-full leading-5 relative py-2 px-4 rounded text-gray-400 bg-white border border-gray-300 overflow-x-auto focus:outline-none focus:border-gray-400 focus:ring-0dark:text-gray-300 dark:bg-blue-900 dark:border-blue-900 dark:focus:border-gray-600"
                         aria-label="password"
                         type="password"
                         defaultValue=""
-                        required=""
+                        required
                       />
                     </div>
                     <div className="mb-6">
