@@ -139,7 +139,7 @@ export default function LoginForm() {
                         <svg
                           xmlns=""
                           fill="currentColor"
-                          className="inline-block w-4 h-4 ltr:mr-2 rtl:ml-2 bi bi-box-arrow-in-right"
+                          className="inline-block w-4 h-4 mx-3 ltr:mr-2 rtl:ml-2 bi bi-box-arrow-in-right"
                           viewBox="0 0 16 16"
                         >
                           <path

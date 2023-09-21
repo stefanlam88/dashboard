@@ -135,12 +135,12 @@ export default function RegisterForm(){
               <div className="grid">
                 <button
                   type="submit"
-                  className="py-2 px-4 inline-block text-center rounded leading-normal text-gray-100 bg-indigo-500 border border-indigo-500 hover:text-white hover:bg-indigo-600 hover:ring-0 hover:border-indigo-600 focus:bg-indigo-600 focus:border-indigo-600 focus:outline-none focus:ring-0"
+                  className="py-2 px-4 inline-block text-center rounded leading-normal text-gray-100 bg-indigo-500 border border-indigo-500 hover:text-white hover:bg-indigo-600 hover:ring-0 hover:border-indigo-600 focus:bg-indigo-600 focus:border-indigo-600 focus:outline-none focus:ring-0 "
                 >
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     fill="currentColor"
-                    className="inline-block w-4 h-4 ltr:mr-2 rtl:ml-2 bi bi-box-arrow-in-right"
+                    className="inline-block w-4 mx-3 h-4 ltr:mr-2 rtl:ml-2 bi bi-box-arrow-in-right"
                     viewBox="0 0 16 16"
                   >
                     <path
