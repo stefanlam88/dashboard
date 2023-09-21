@@ -7,7 +7,7 @@ export default function ForgetForm() {
         <header>
   {/* Navbar */}
   <nav
-    className="flex  text-white flex-row flex-nowrap items-center justify-between mt-0 py-4 px-6 border-b border-gray-200 bg-white dark:bg-indigo-950 dark:border-gray-800"
+    className="flex  text-gray-950 flex-row flex-nowrap items-center justify-between mt-0 py-4 px-6 border-b border-gray-200 bg-white dark:bg-white dark:border-white"
     id="desktop-menu"
   >
     {/* logo */}
@@ -50,7 +50,7 @@ export default function ForgetForm() {
             />
           </g>
         </svg>
-        <span className="text-gray-700 dark:text-gray-200">Taildash</span>
+        <span className="text-gray-950 dark:text-gray-950">Taildash</span>
       </h2>
     </a>
     {/* menu */}
@@ -85,20 +85,20 @@ export default function ForgetForm() {
               {/* login form */}
               <div className="max-w-full w-full md:w-2/3 lg:w-1/2 px-6 sm:px-12">
                 <div className="relative">
-                  <div className="p-6 sm:py-8 sm:px-12 rounded-lg bg-white dark:bg-indigo-950 shadow-xl">
+                  <div className="p-6 sm:py-8 sm:px-12 rounded-lg bg-white dark:bg-white shadow-xl">
                     <form id="login-form">
-                      <h1 className="text-2xl leading-normal mb-6 font-bold text-gray-800  dark:text-gray-300 text-center">
+                      <h1 className="text-2xl leading-normal mb-6 font-bold text-gray-800  dark:text-gray-950 text-center">
                         Reset Password
                       </h1>
                       <hr className="block w-12 h-0.5 mx-auto my-5 bg-gray-700 border-gray-700" />
-                      <p className="text-gray-300 mb-6">
+                      <p className="text-gray-950 mb-6">
                         Enter your email address and we'll send you an email
                         with instructions to reset your password.
                       </p>
                       <div className="mb-6">
                         <input
                           name="email"
-                          className="w-full leading-5 relative py-2 px-4 rounded text-gray-800 bg-white border border-gray-300 overflow-x-auto focus:outline-none focus:border-gray-400 focus:ring-0 dark:text-gray-300 dark:bg-blue-900 dark:border-blue-900 dark:focus:border-gray-600"
+                          className="w-full leading-5 relative py-2 px-4 rounded text-gray-800 bg-white border border-gray-300 overflow-x-auto focus:outline-none focus:border-gray-400 focus:ring-0 dark:text-gray-300  dark:border-indigo-100 dark:focus:border-gray-600"
                           placeholder="Email address"
                           defaultValue=""
                           aria-label="email"
