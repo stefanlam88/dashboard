@@ -35,6 +35,11 @@ export default function Component() {
                 </Stack>
             </Flex>
         </Container>
-    </Box>
+   
+     <div className="container xl:max-w-6xl my-auto mx-auto px-4 ">
+        <div className="flex flex-wrap flex-row -mx-4 justify-center">
+            </div>
+     </div>
+     </Box>
     )
 }
