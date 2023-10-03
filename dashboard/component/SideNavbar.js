@@ -1,4 +1,4 @@
-"use client"
+"use client";
 import React from "react";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { Disclosure } from "@headlessui/react";
@@ -18,13 +18,24 @@ function SideNavbar() {
   return (
     <div>
       <Disclosure as="nav">
-        <Disclosure.Button className="absolute top-4 right-4 inline-flex items-center peer justify-center rounded-md p-2 text-gray-800 hover:bg-gray-900 hover:text-white focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white group">
+        <Disclosure.Button className=" w-64 md:w-0 absolute top-4 lg:w-full right-4 inline-flex items-center peer justify-center rounded-md p-2 text-gray-800 hover:bg-gray-900 hover:text-white focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white group">
           <GiHamburgerMenu
-            className="block md:hidden h-6 w-6"
+            className="block md:hidden h-10 w-10"
             aria-hidden="true"
           />
         </Disclosure.Button>
-        <div className="p-6 w-1/2 h-screen z-20 fixed top-0 -left-96 lg:left-0 lg:w-full  peer-focus:left-0 peer:transition ease-out delay-150 duration-200">
+        <body className="font-sas text-base font-normal text-gray-600 dark:text-gray-400 dark:bg-gray-900">
+          <div x-data="{ open: false}" className="wrapper overflow-x-hidden bg-gray-100 dark:bg-gray-900 dark:bg-opacity-40"></div>
+          <div id="sidebar-menu" x-description="Mobile menu" ></div>
+        </body>
+        <main className="pt-20 -mt-2">
+          <div className="mx-auto p-2">
+            <div className="flex flex-wrap flex-row">
+              <div className="flex-shrink max-w-full px-4 w-full  text-black">hiiS</div>
+            </div>
+          </div>
+        
+        <div className="p-6 lg:w-full h-screen z-20 fixed top-0 -left-96 lg:left-0 lg:w-full  peer-focus:left-0 peer:transition ease-out delay-150 duration-200">
           <div className="flex flex-col bg-white justify-start item-center">
             <h1 className="text-base  text-center cursor-pointer font-bold text-blue-900 border-b border-gray-100 pb-4 h-full">
               Virtual Dashboard
@@ -93,8 +104,10 @@ function SideNavbar() {
             </div>
           </div>
         </div>
+        </main>
       </Disclosure>
     </div>
+
   );
 }
 
