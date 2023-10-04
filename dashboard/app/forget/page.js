@@ -13,7 +13,7 @@ export default function ForgetForm() {
     {/* logo */}
     <a className="flex items-center py-2 mr-4 text-xl" href="../index.html">
       <h2 className="text-2xl font-semibold text-gray-200 px-4 max-h-9 overflow-hidden">
-        {/* <img class="inline-block w-7 h-auto ltr:mr-2 rtl:ml-2 -mt-1" src="../src/img/logo.png"> */}
+      
         <svg
           xmlns="http://www.w3.org/2000/svg"
           className="inline-block w-7 h-7 ltr:mr-2 rtl:ml-2 -mt-1"
