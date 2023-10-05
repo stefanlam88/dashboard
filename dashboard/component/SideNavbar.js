@@ -34,7 +34,32 @@ function SideNavbar() {
 </Head>
   <footer></footer>
   
-   
+        <Script src="vendors/alpinejs/dist/cdn.min.js"></Script>
+        
+        <Script src="vendors/flatpickr/dist/flatpickr.min.js"></Script>
+       
+        <Script src="vendors/flatpickr/dist/plugins/rangePlugin.js"></Script>
+        
+        <Script src="vendors/@yaireo/tagify/dist/tagify.min.js"></Script>
+       
+        <Script src="vendors/pristinejs/dist/pristine.min.js"></Script>
+        
+        <Script src="vendors/simple-datatables/dist/umd/simple-datatables.js"></Script>
+       
+       <Script src="dist/js/scripts.js"></Script> 
+        
+        <Script src="src/js/demo.js"></Script>
+        <Script src="vendors/chart.js/dist/chart.min.js"></Script>
+       
+        <Script src="src/js/chart/cms.js"></Script>
+        
+        <Script src="vendors/jsvectormap/dist/js/jsvectormap.min.js"></Script>
+      
+        <Script src="vendors/jsvectormap/dist/maps/world.js"></Script>
+        
+        <Script src="src/js/vendor.js"></Script>
+        
+        <Script src="src/js/customizer.js"></Script>
     </>
   )
 }
