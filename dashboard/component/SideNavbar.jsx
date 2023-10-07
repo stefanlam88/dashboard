@@ -219,6 +219,32 @@ function SideNavbar() {
               </p>
             </div>
           </div>
+          <div>
+          <li class="relative">
+                                    <a class="text-indigo-500 dark:text-gray-300 block w-full py-2 px-6 clear-both whitespace-nowrap hover:text-indigo-500 dark:hover:text-gray-300" href="index.html">CMS</a>
+                                </li>
+                                <li class="relative">
+                                    <a class="block w-full py-2 px-6 clear-both whitespace-nowrap hover:text-indigo-500 dark:hover:text-gray-300" href="index-analytics.html">Analytics</a>
+                                </li>
+                                <li class="relative">
+                                    <a class="block w-full py-2 px-6 clear-both whitespace-nowrap hover:text-indigo-500 dark:hover:text-gray-300" href="index-ecommerce.html">Ecommerce</a>
+                                </li>
+                                <li class="relative">
+                                    <a class="block w-full py-2 px-6 clear-both whitespace-nowrap hover:text-indigo-500 dark:hover:text-gray-300" href="index-projects.html">Projects</a>
+                                </li>
+                                <li class="relative">
+                                    <a class="block w-full py-2 px-6 clear-both whitespace-nowrap hover:text-indigo-500 dark:hover:text-gray-300" href="index-crm.html">CRM</a>
+                                </li>
+                                <li class="relative">
+                                    <a class="block w-full py-2 px-6 clear-both whitespace-nowrap hover:text-indigo-500 dark:hover:text-gray-300" href="index-hosting.html">Hosting</a>
+                                </li>
+                                <li class="relative">
+                                    <a class="block w-full py-2 px-6 clear-both whitespace-nowrap hover:text-indigo-500 dark:hover:text-gray-300" href="index-saas.html">Saas</a>
+                                </li>
+                                <li class="relative">
+                                    <a class="block w-full py-2 px-6 clear-both whitespace-nowrap hover:text-indigo-500 dark:hover:text-gray-300" href="index-sales.html">Sales</a>
+                                </li>
+          </div>
         </div>
       </footer>
 
