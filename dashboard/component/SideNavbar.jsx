@@ -209,6 +209,7 @@ function SideNavbar() {
                 </li>
               </ul>
             </div>
+            </div>
             <div className="flex-shrink max-w-full px-4 w-full md:w-1/2 text-center md:ltr:text-right md:rtl:text-left">
               {/* copyright text */}
               <p className="mb-0 mt-3 md:mt-0">
@@ -221,62 +222,7 @@ function SideNavbar() {
           </div>
           <div>
             
-          <li className=-"relative">
-                                    <a className=-"text-indigo-500 dark:text-gray-300 block w-full py-2 px-6 clear-both whitespace-nowrap hover:text-indigo-500 dark:hover:text-gray-300" href="index.html">CMS</a>
-                                </li>
-                                <li className=-"relative">
-                                    <a className=-"block w-full py-2 px-6 clear-both whitespace-nowrap hover:text-indigo-500 dark:hover:text-gray-300" href="index-analytics.html">Analytics</a>
-                                </li>
-                                <li className=-"relative">
-                                    <a className=-"block w-full py-2 px-6 clear-both whitespace-nowrap hover:text-indigo-500 dark:hover:text-gray-300" href="index-ecommerce.html">Ecommerce</a>
-                                </li>
-                                <li className=-"relative">
-                                    <a className=-"block w-full py-2 px-6 clear-both whitespace-nowrap hover:text-indigo-500 dark:hover:text-gray-300" href="index-projects.html">Projects</a>
-                                </li>
-                                <li className=-"relative">
-                                    <a className=-"block w-full py-2 px-6 clear-both whitespace-nowrap hover:text-indigo-500 dark:hover:text-gray-300" href="index-crm.html">CRM</a>
-                                </li>
-                                <li className=-"relative">
-                                    <a className=-"block w-full py-2 px-6 clear-both whitespace-nowrap hover:text-indigo-500 dark:hover:text-gray-300" href="index-hosting.html">Hosting</a>
-                                </li>
-                                <li className=-"relative">
-                                    <a className=-"block w-full py-2 px-6 clear-both whitespace-nowrap hover:text-indigo-500 dark:hover:text-gray-300" href="index-saas.html">Saas</a>
-                                </li>
-                                <li className=-"relative">
-                                    <a className=-"block w-full py-2 px-6 clear-both whitespace-nowrap hover:text-indigo-500 dark:hover:text-gray-300" href="index-sales.html">Sales</a>
-                                </li>
-          </div>
-          
-                            <ul x-show="selected == 2" x-transition:enter="transition-all duration-200 ease-out" x-transition:enter-start="transform opacity-0 scale-95" x-transition:enter-end="transform opacity-100 scale-100" className=-"block rounded rounded-t-none top-full z-50 ltr:pl-7 rtl:pr-7 py-0.5 ltr:text-left rtl:text-right mb-1 font-normal">
-                                <li className=-"relative">
-                                    <a className=-"block w-full py-2 px-6 clear-both whitespace-nowrap hover:text-indigo-500 dark:hover:text-gray-300" href="ecommerce/product.html">Products</a>
-                                </li>
-                                <li className=-"relative">
-                                    <a className=-"block w-full py-2 px-6 clear-both whitespace-nowrap hover:text-indigo-500 dark:hover:text-gray-300" href="ecommerce/product-detail.html">Product Details</a>
-                                </li>
-                                <li className=-"relative">
-                                    <a className=-"block w-full py-2 px-6 clear-both whitespace-nowrap hover:text-indigo-500 dark:hover:text-gray-300" href="ecommerce/order.html">Orders</a>
-                                </li>
-                                <li className=-"relative">
-                                    <a className=-"block w-full py-2 px-6 clear-both whitespace-nowrap hover:text-indigo-500 dark:hover:text-gray-300" href="ecommerce/order-detail.html">Order Details</a>
-                                </li>
-                                <li className=-"relative">
-                                    <a className=-"block w-full py-2 px-6 clear-both whitespace-nowrap hover:text-indigo-500 dark:hover:text-gray-300" href="ecommerce/customers.html">Customers</a>
-                                </li>
-                                <li className=-"relative">
-                                    <a className=-"block w-full py-2 px-6 clear-both whitespace-nowrap hover:text-indigo-500 dark:hover:text-gray-300" href="ecommerce/cart.html">Shopping Cart</a>
-                                </li>
-                                <li className=-"relative">
-                                    <a className=-"block w-full py-2 px-6 clear-both whitespace-nowrap hover:text-indigo-500 dark:hover:text-gray-300" href="ecommerce/checkout.html">Checkout</a>
-                                </li>
-                                <li className=-"relative">
-                                    <a className=-"block w-full py-2 px-6 clear-both whitespace-nowrap hover:text-indigo-500 dark:hover:text-gray-300" href="ecommerce/seller.html">Sellers</a>
-                                </li>
-                                <li className=-"relative">
-                                    <a className=-"block w-full py-2 px-6 clear-both whitespace-nowrap hover:text-indigo-500 dark:hover:text-gray-300" href="ecommerce/invoice.html">Invoice</a>
-                                </li>
-                            </ul>
-                       
+         
                        
           <div>
             
