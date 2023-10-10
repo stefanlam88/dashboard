@@ -60,6 +60,18 @@ const App = () => {
       <div className="h-screen flex-1 p-7">
         <h1 className="text-2xl font-semibold ">Home Page</h1>
       </div>
+      <li
+              key={index}
+              className={`flex  rounded-md p-2 cursor-pointer hover:bg-light-white text-gray-300 text-sm items-center gap-x-4 
+              ${Menu.gap ? "mt-9" : "mt-2"} ${
+                index === 0 && "bg-light-white"
+              } `}
+            >
+              <img src={`./src/assets/${Menu.src}.png`} />
+              <span className={`${!open && "hidden"} origin-left duration-200`}>
+                {Menu.title}
+              </span>
+            </li>
     </div>
   );
 };
