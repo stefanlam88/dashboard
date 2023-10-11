@@ -69,7 +69,7 @@ const MainHeader = () => {
           {/* End Navbar */}
         </header>
       </div>
-      <div onClick={toggle} className="lg:hidden">
+      <div onClick={toggle} >
         <FaBars className="cursor-pointer" />
       </div>
     </div>
