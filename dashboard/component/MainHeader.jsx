@@ -72,6 +72,7 @@ const MainHeader = () => {
       <div onClick={toggle} >
         <FaBars className="cursor-pointer" />
       </div>
+    
     </div>
   );
 };
