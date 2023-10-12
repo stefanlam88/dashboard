@@ -27,6 +27,7 @@ const MainLayout = ({ children }) => {
     <div className=" w-screen min-h-screen">
       <MainHeader />
       <div className="flex justify-start items-start">
+
         <aside
           className={`bg-white top-4 left-4 lg:fixed lg:block lg:top-16 lg:left-8 rounded-lg overflow-hidden transition-all duration-200 ${
             open ? "w-60 p-4 block fixed" : "w-0 hidden"
@@ -92,6 +93,26 @@ const MainLayout = ({ children }) => {
 
           {/* End Navbar */}
         </header>
+        <div>
+        <ul className="pt-6">
+          {Menus.map((Menu, index) => (
+            <li
+              key={index}
+              className={`flex  rounded-md p-2 cursor-pointer hover:bg-light-white text-gray-300 text-sm items-center gap-x-4 
+              ${Menu.gap ? "mt-9" : "mt-2"} ${
+                index === 0 && "bg-light-white"
+              } `}
+            >
+              <img src={`./src/assets/${Menu.src}.png`} />
+              <span className={`${!open && "hidden"} origin-left duration-200`}>
+                {Menu.title}
+              </span>
+            </li>
+          ))}
+        </ul>
+        
+      </div>
+        </div>
           <ul>
             <li className="flex justify-end items-center lg:hidden">
               <AiOutlineClose
