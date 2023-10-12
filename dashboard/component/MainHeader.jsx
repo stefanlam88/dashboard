@@ -71,7 +71,49 @@ const MainHeader = () => {
           <FaBars className="cursor-pointer" />
         </div>
       </div>
+      <footer className="bg-white dark:bg-gray-800 p-6 shadow-sm">
+        <div className="mx-auto">
+          <div className="flex flex-wrap flex-row -mx-4">
+            <div className="flex-shrink max-w-full px-4 w-full md:w-1/2 text-center md:ltr:text-left md:rtl:text-right">
+              {/* footer menu */}
+              <ul className="ltr:pl-0 rtl:pr-0">
+                <li className="inline-block ltr:mr-3 rtl:ml-3">
+                  <a className="hover:text-indigo-500" href="#">
+                    Support
+                  </a>
+                </li>
+                <li className="inline-block ltr:mr-3 rtl:ml-3">
+                  <a className="hover:text-indigo-500" href="#">
+                    Help Center
+                  </a>
+                </li>
+                <li className="inline-block ltr:mr-3 rtl:ml-3">
+                  <a className="hover:text-indigo-500" href="#">
+                    Privacy
+                  </a>
+                </li>
+                <li className="inline-block ltr:mr-3 rtl:ml-3">
+                  <a className="hover:text-indigo-500" href="#">
+                    Terms of Service
+                  </a>
+                </li>
+              </ul>
+            </div>
+            </div>
+            <div className="flex-shrink max-w-full px-4 w-full md:w-1/2 text-center md:ltr:text-right md:rtl:text-left">
+              {/* copyright text */}
+              <p className="mb-0 mt-3 md:mt-0">
+                <a href="index.html" className="hover:text-indigo-500">
+                  Tailnet
+                </a>
+                | All right reserved
+              </p>
+            </div>
+          </div>
+         
+      </footer>
     </div>
+    
   );
 };
 
