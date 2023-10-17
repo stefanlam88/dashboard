@@ -19,9 +19,6 @@ function SideNavbar() {
   return (
     <>
     
-      
-
- 
 
       <footer className="bg-white dark:bg-gray-800 p-6 shadow-sm absolute bottom-0 right-0">
         <div className="mx-auto">
