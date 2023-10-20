@@ -1,28 +1,27 @@
-import Link from "next/link"
-import ForgetForm from "../forget/page"
+import Link from "next/link";
+import ForgetForm from "../forget/page";
 export default function LoginForm() {
-    return (
-        <>
-      
+  return (
+    <>
       <div
         className="bg-gray-100 dark:bg-indigo-100 dark:bg-opacity-40 text-gray-950 "
         style={{
-          background:
-          "\public\bg1.jpg",
+          background: "public\bg1.jpg",
           backgroundRepeat: "no-repeat",
           backgroundSize: "cover",
           backgroundAttachment: "fixed",
         }}
       >
         <div className="flex flex-wrap flex-row">
-          <span className="fixed bg-gray-100 dark-bg-opacity-40 w-full h-full inset-x-0 top-0" 
-   style={{
-    backgroundImage: 'url("/bg1.jpg")', // Replace with your image path or URL
-    backgroundRepeat: "no-repeat",
-    backgroundSize: "cover",
-    backgroundAttachment: "fixed"
-  }}
-/>
+          <span
+            className="fixed bg-gray-100 dark-bg-opacity-40 w-full h-full inset-x-0 top-0"
+            style={{
+              backgroundImage: 'url("/bg1.jpg")', // Replace with your image path or URL
+              backgroundRepeat: "no-repeat",
+              backgroundSize: "cover",
+              backgroundAttachment: "fixed",
+            }}
+          />
           <div className="flex-shrink max-w-full w-full min-h-screen sm:w-2/3 lg:w-1/2 xl:w-1/3 z-30">
             {/* login form */}
             <div className="max-w-full w-full h-full px-6 sm:px-12 bg-white dark:bg-white shadow-lg z-40">
@@ -30,7 +29,7 @@ export default function LoginForm() {
                 <div className="p-6 sm:p-8">
                   <form id="login-form">
                     <div className="text-center">
-                      <a className="py-2 text-2xl"  href="#">
+                      <a className="py-2 text-2xl" href="#">
                         <h2 className="text-2xl font-semibold text-gray-200 px-4 w-full h-full overflow-hidden">
                           {/* <img class="inline-block w-8 h-auto ltr:mr-2 rtl:ml-2 -mt-1" src="../src/img/logo.png"> */}
                           <svg
@@ -90,34 +89,28 @@ export default function LoginForm() {
                         required
                       />
                     </div>
-                    <div className="mb-6  ">
+                    <div className="mb-6">
                       <div className="flex flex-wrap flex-row">
-                        <div className="flex-shrink max-w-full w-1/2">
-                          <label
-                            htmlFor="inputpass"
-                            className="inline-block mb-2"
-                          >
+                        <div className="flex-shrink-0 w-full md:w-1/2">
+                          <label htmlFor="inputpass" className="block mb-2">
                             Password
                           </label>
                         </div>
-                        <div className="flex-shrink max-w-full w-1/2 ltr:text-right rtl:text-left hover:text-indigo-500">
-                          <Link href= "/forget" >
-
-                          
-                         
-                            Forgot password?
-                         </Link>
+                        <div className="flex-shrink-0 w-full md:w-1/2 text-right text-indigo-500 hover:text-indigo-700">
+                          <Link href="/forget">Forgot password?</Link>
                         </div>
                       </div>
                       <input
+                        name="password" // Set the name to "password"
                         id="inputpass"
-                        className="w-full leading-5 relative py-2 px-4 rounded text-white bg-white border border-gray-300 overflow-x-auto focus:outline-none focus:border-gray-400 focus:ring-0 dark:text-gray-950 dark:bg-white dark:border-indigo-200  dark:focus:border-gray-600"
+                        className="w-full px-4 py-2 rounded bg-white border border-gray-300 focus:outline-none focus:border-gray-400 focus:ring-0 text-gray-700 dark:text-gray-300 dark:bg-white dark:border-indigo-200 dark:focus:border-gray-600"
                         aria-label="password"
                         type="password"
                         defaultValue=""
                         required
                       />
                     </div>
+
                     <div className="mb-6">
                       <input
                         className="form-checkbox h-5 w-5  dark:bg-gray-700 text-white bg-white border border-gray-300 dark:border-gray-700 rounded focus:outline-none"
@@ -126,7 +119,11 @@ export default function LoginForm() {
                         id="remember"
                         required=""
                       />
-                      <label className="ltr:ml-2 rtl:mr-2" htmlFor="remember" style={{ marginLeft: '10px' }}>
+                      <label
+                        className="ltr:ml-2 rtl:mr-2"
+                        htmlFor="remember"
+                        style={{ marginLeft: "10px" }}
+                      >
                         Remember me
                       </label>
                     </div>
@@ -151,7 +148,12 @@ export default function LoginForm() {
                             d="M11.854 8.354a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H1.5a.5.5 0 0 0 0 1h8.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3z"
                           />
                         </svg>
-                        Login
+                        <a
+                          className="hover:text-indigo-500"
+                          href="/dashboardview"
+                        >
+                          Login
+                        </a>
                       </button>
                     </div>
                   </form>
@@ -197,10 +199,7 @@ export default function LoginForm() {
                     </div>
                     <p className="text-center mb-0">
                       Don't have an account?{" "}
-                      <a
-                        className="hover:text-indigo-500"
-                        href='/register'
-                      >
+                      <a className="hover:text-indigo-500" href="/register">
                         Register
                       </a>
                     </p>
@@ -211,6 +210,6 @@ export default function LoginForm() {
           </div>
         </div>
       </div>
-        </>
-    )
+    </>
+  );
 }

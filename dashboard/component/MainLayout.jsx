@@ -37,6 +37,7 @@ const MainLayout = ({ children }) => {
           
           <ul>
             <li className="flex justify-end items-center lg:hidden">
+             
               <AiOutlineClose
                 onClick={closeSeideBarHandler}
                 className="text-red-500 hover:text-red-800 cursor-pointer"
