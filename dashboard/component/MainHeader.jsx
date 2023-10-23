@@ -14,7 +14,7 @@ const MainHeader = () => {
 
   const { toggle } = useContext(MenuContext);
   return (
-    <div className="bg-white flex justify-between items-center px-4 h-12 mb-4 ">
+    <div className="bg-white flex justify-between items-center px-10  h-12 mb-3  ">
       <div>
         {" "}
         <header>
